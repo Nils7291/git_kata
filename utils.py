@@ -1,2 +1,4 @@
 import pandas as pd
-load_data = pd.read_csv("titanic.csv")
+
+def load_data():
+    return pd.read_csv("data/titanic.csv")
